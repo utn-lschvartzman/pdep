@@ -1,0 +1,26 @@
+import pdepfoni.*
+
+describe "Tests del PUNTO 9"{
+
+    const lineaDeLucas = new LineaTelefonica(numeroDeTelefono = "+54 1234-5678",deuda = 0, tipoDeLinea = black)
+
+    const consumoMBs = new ConsumoMBs(cantidadMBs = 10)
+
+    test "Un test que verifique que se haya producido efecto correctamente"{
+        
+        lineaDeLucas.realizarConsumo(consumoMBs)
+
+        assert.equals(1,lineaDeLucas.deuda())
+    }
+
+    test "Un test que verifique que no se pueda hacer algo" {
+
+        lineaDeLucas.tipoDeLinea(normal)
+
+        assert.notThat(lineaDeLucas.puedeRealizarConsumo(consumoMBs))
+    }
+
+    test "Un test uno que verifique que se devuelva bien algo" {
+        assert.equals(1,consumoMBs.costo())
+    }
+}
