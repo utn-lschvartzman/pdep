@@ -1,6 +1,6 @@
 # Paradigmas de Programación - UTN FRBA (2024)
 
-Este repositorio contiene los enunciados y resoluciones personales de **60 parciales** que resolví mientras cursaba la materia en 2024.
+Este repositorio contiene los enunciados y resoluciones personales de **alrededor de 60 parciales** que resolví mientras cursaba la materia en 2024.
 
 En su momento me ayudó mucho hacerlos para practicar, y ahora los subo por si le sirven a alguien que esté por rendirla.
 
