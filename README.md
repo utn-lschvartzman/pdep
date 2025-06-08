@@ -4,6 +4,8 @@ Este repositorio contiene los enunciados y resoluciones personales de **alrededo
 
 En su momento me ayudó mucho hacerlos para practicar, y ahora los subo por si le sirven a alguien que esté por rendirla.
 
+Para facilitar la práctica, también dejo las guías de lenguaje en formato **Markdown** y **PDF** en la carpeta [docs](docs/).
+
 > ⚠️ **Nota:** estas no son soluciones perfectas ni mucho menos. Algunas pueden mejorarse o contener errores.
 
 ## 🎯 Propósito
@@ -43,6 +45,10 @@ Para facilitar la navegación, el repositorio está organizado así:
 │   └── solucion.wlk
 ├── ...
 └── README.md
+
+📁docs/
+├── Guía de Lenguajes (3.1.4).md
+└── Guía de Lenguajes (3.1.4).pdf
 ```
 
 ## 🗃️ Estado del repositorio
